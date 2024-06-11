@@ -16,17 +16,19 @@
 </head>
 <body>
     
-<!-- Flecha de volver al inicio -->
+<!-- Flecha de volver al inicio 
 <div id="scroll-to-top">
     <a href="#inicio">
     <img src="./img/arrow.png" alt="Volver al inicio">
     </a>
 </div>
-
+-->
     <header>
-        <h2 data-aos="fade-up">It's time to party!</h2>
-        <!--  <img class="namesdos"  src="./img/names.png" alt="nombres">
-       --> <br> <a class="boton" href="https://calendar.app.google/yYvDjqeHZFGq4HMA8">AGENDAR</a>
+        <div class="divdentro">
+            <br> <a class="boton namedos" href="https://calendar.app.google/yYvDjqeHZFGq4HMA8">AGENDAR</a>
+
+        </div>
+        <!-- <h2 data-aos="fade-up">It's time to party!</h2>-->
         
     </header>
 
@@ -39,18 +41,26 @@
     </div>
     <div id="cuenta"></div>
  
+ 
     <div class="audiodiv">
-        <audio controls .mejs-container autoplay src="./hallelujah-subtitulada-en-espanol.mp3"></audio >
-    </div> 
-    
+        <audio id="myAudio" preload="none">
+            <source src="./etta-james-cover-by-lucy-thomas.mp3" type="audio/mpeg">
+        </audio>
+        <div id="playPauseBtn" class="play">
+            <img src="./img/notamusical.png" alt="Icono de música">
+        </div>
+      </div>
+
+
+
+
     <div data-aos="fade-up" class="lovestory">
         <img class="img1" src="./img/Lovestory.png" alt="lovestory">
-        <p>Los pasillos de la facultad de psicología nos cruzaron, el compañerismo y un cielo estrellado fueron, son y serán el refugio al que siempre necesitamos volver, un poco como las canciones de Silvio y la Plaza de Mayo de La Década Ganada. <br> 
-            Guardianes de un amor que sucedió y nos sacudió, el deseo motor de sueños cumplidos y los que vendrán. 
-         <br>   Nos amamos como pareja y como familia, compañeros coraje, nos han sacudido y acá estamos, festejando nuestra historia de amor multiplicada y para siempre.
-            Nos abrazamos y vemos crecer el porvenir: Benjamín y Geraldine ♥️
+        <p>Los pasillos de la facultad de Psicología nos cruzaron. El compañerismo y un cielo estrellado fueron, son y serán el refugio al que siempre necesitamos volver; un poco como las canciones de Silvio y la Plaza de Mayo de “La Década Ganada”: guardianes de un amor que sucedió y nos sacudió. El deseo motor de sueños cumplidos y los que vendrán.
+         <br>   Nos amamos como pareja y como familia. Compañeros coraje, nos han sacudido y acá estamos festejando nuestra historia de amor multiplicada y para siempre. 
+         Nos abrazamos y vemos crecer el porvenir: Benjamín y Geraldine ❤️
             
-           <br> “La cobardía es asunto de los hombres, no de los amantes; Los amores cobardes no llegan a amores ni a historias, se quedan ahí. Ni el recuerdo los puede salvar, ni el mejor orador conjugar”
+           <br>  <i>”La cobardía es asunto de los hombre no de los amantes. Los amores cobardes no llegan a amores ni a historias, se quedan ahí. Ni el recuerdo los puede salvar, ni el mejor orador conjugar.”</i>
              </p>
         <img src="./img/iniciales.png" alt="iniciales">
     </div>
@@ -62,14 +72,14 @@
         <br>
         <img class="img1" src="./img/Details.png" alt="details">
         <img class="iconss" src="./img/anillos-de-boda.png" alt="">
-        <p>Te esperamos para nuestra ceremonia religiosa el próximo 14 de Febrero a las 19:00 hs en la<br> Basilica Nuestra Señora de Lourdes, Santiago 1169, Rosario, Sta Fé. <br> 
+        <p>Te esperamos para nuestra Ceremonia religiosa el próximo 14 de Febrero a las 19:00 hs en la<br> Basílica "Nuestra Señora de Lourdes": Santiago 1169, Rosario, Santa Fe. <br> 
         </p>
         <div class="botones">
             <a class="boton2" href="https://www.google.com.mx/maps/dir//Bas%C3%ADlica+%22Nuestra+Se%C3%B1ora+de+Lourdes%22,+Santiago+1169,+S2000QHG+Rosario,+Santa+Fe/@-33.1931386,-65.6715184,1662248m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x95b7ab41fe3584a5:0x17f52e6964f7198!2m2!1d-60.6570915!2d-32.9478734?entry=ttu">COMO LLEGAR</a>
         </div>
         <br>
         <img class="iconss" src="./img/Groupm.png" alt="">
-        <p>Después de la ceremonia te invitamos a brindar, bailar y divertirnos toda la noche. A partir de las 20:00 hs en Villa Margherita, José Hernández 2152 Rosario, Sta Fé. <br> 
+        <p>La fiesta será el mismo viernes 14 de febrero, día de los enamorados. En "Villa Margherita", ubicada en: José Hernández 2152 Rosario, Santa Fe. <br> 
 
         </p>
        
@@ -90,9 +100,8 @@
     </div>
     <div  class="dresscode">
         <img src="./img/dresscode.png" alt="">
-        <p data-aos="fade-in">DRESS CODE:</p>
-        <p data-aos="fade-up" class="info">  El color blanco es exclusividad para la novia. <br>
-            Los demás colores, todos los que quieran juntos o monocroma; cortos o largos. <br> Listos para bailar toda la noche.
+        <p data-aos="fade-in">DRESS CODE - ELEGANTE SPORT</p>
+        <p data-aos="fade-up" class="info"> ¡Atención! Exclusividad de color blanco <br> para la novia y monocromático negro para el novio.
  </p>
  <br>
 
@@ -108,7 +117,7 @@
             <div data-aos="fade-up"  class="iconos-block">
                 <img src="./img/icons8-silla-100.png" alt="icono">
                 <p>20:00 Hs</p>
-                <p>Toma tu lugar</p>
+                <p>Recepción</p>
             </div>
             <div data-aos="fade-up"  class="iconos-block">
                 <img src="./img/anillos-de-boda 2.png" alt="icono">
@@ -139,7 +148,7 @@
         </div>
         <br>
         <img class="img1" src="./img/Gifts.png" alt="gifts">
-        <p>Tu presencia es lo más importante, pero si queres hacernos un regalo, podes ayudarnos con nuestra luna de miel.
+        <p>Si queres hacernos un regalo para nuestra boda y luna de miel.
 
         </p>
         <div class="gift-block">
@@ -164,9 +173,9 @@
         <img class="f4" src="./img/8.png" alt="Novios">
     </div>
     <div  class="rrss">
-        <h2 data-aos="fade-up">Let's dance!</h2>
+        <h2 data-aos="fade-up">¡Vamos de fiesta!</h2>
         <div data-aos="fade-up" class="block">
-            <p>Participa eligiendo la música que queres bailar.</p>
+            <p>Participá eligiendo la música que queres bailar.</p>
             <div class="botones">
                 <a class="boton2" href="https://forms.gle/TnZyCEGrzHkn4RBV7">RECOMENDAR</a>
             </div>
@@ -187,7 +196,7 @@
         </div>
         <br>
         <img class="img1" src="./img/R.S.V.P.png" alt="details">
-        <p>No olvides confirmar asistencia antes del 14 de Diciembre. Nos encantaria que formes parte de este momento. En caso de que no puedas asistir porfavor avisanos para una mejoración. 
+        <p>No olvides confirmar asistencia antes del 14 de Diciembre. Nos encantaria que formes parte de este momento. En caso de que no puedas asistir por favor avisanos para una mejor organización. 
         </p>
         <div class="botones">
             <a class="boton2" href="https://forms.gle/9DXerpMhnpgttte58">CONFIRMAR</a>
@@ -208,7 +217,12 @@
         <p>14.02.2025</p>
     </div>
 
- 
+
+
+
+
+
+
 <footer>
     <div class="contenido">
      <div>
@@ -231,6 +245,8 @@
 
     <script src="./countdown.js/simplyCountdown.min.js"></script>
     <script src="./countdown.js/countdown.js"></script>
+    <script src="reproductor.js"></script>
+
 
 <!-- Script para el desplazamiento suave -->
 <!-- Script para el desplazamiento suave -->
